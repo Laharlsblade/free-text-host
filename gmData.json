@@ -12103,30 +12103,6 @@
 			"candyDistance": 5
 		},
 		{
-			"id": "sudowoodo",
-			"name": "Sudowoodo",
-			"type1": "rock",
-			"family": "family-sudowoodo",
-			"parent": "bonsly",
-			"shadow": true,
-			"fastMoves": [
-				"rock-throw",
-				"counter"
-			],
-			"chargeMoves": [
-				"stone-edge",
-				"earthquake",
-				"rock-slide",
-				"rock-tomb",
-				"meteor-beam",
-				"trailblaze"
-			],
-			"atk": 167,
-			"def": 176,
-			"hp": 172,
-			"candyDistance": 5
-		},
-		{
 			"id": "politoed",
 			"name": "Politoed",
 			"type1": "water",
@@ -28439,63 +28415,6 @@
 			"candyDistance": 1
 		},
 		{
-			"id": "charjabug",
-			"name": "Charjabug",
-			"type1": "bug",
-			"type2": "electric",
-			"family": "family-grubbin",
-			"parent": "grubbin",
-			"evolutions": [
-				"vikavolt"
-			],
-			"shadow": true,
-			"fastMoves": [
-				"bug-bite",
-				"spark",
-				"volt-switch"
-			],
-			"chargeMoves": [
-				"x-scissor",
-				"discharge",
-				"crunch"
-			],
-			"eliteMoves": [
-				"volt-switch"
-			],
-			"atk": 145,
-			"def": 161,
-			"hp": 149,
-			"candyDistance": 1
-		},
-		{
-			"id": "vikavolt",
-			"name": "Vikavolt",
-			"type1": "bug",
-			"type2": "electric",
-			"family": "family-grubbin",
-			"parent": "charjabug",
-			"shadow": true,
-			"fastMoves": [
-				"bug-bite",
-				"spark",
-				"mud-slap",
-				"volt-switch"
-			],
-			"chargeMoves": [
-				"x-scissor",
-				"discharge",
-				"crunch",
-				"fly"
-			],
-			"eliteMoves": [
-				"volt-switch"
-			],
-			"atk": 254,
-			"def": 158,
-			"hp": 184,
-			"candyDistance": 1
-		},
-		{
 			"id": "vikavolt",
 			"name": "Vikavolt",
 			"type1": "bug",
@@ -30703,7 +30622,11 @@
 			"chargeMoves": [
 				"mystical-fire",
 				"shadow-ball",
-				"overheat"
+				"overheat",
+				"mind-blown"
+			],
+			"eliteMoves": [
+				"mind-blown"
 			],
 			"atk": 315,
 			"def": 148,
@@ -31410,14 +31333,14 @@
 			"type1": "rock",
 			"type2": "fire",
 			"family": "family-rolycoly",
-			"parent": "boltund",
+			"parent": "rolycoly",
 			"evolutions": [
 				"coalossal"
 			],
 			"shadow": false,
 			"fastMoves": [
 				"smack-down",
-				"incinerate"
+				"tackle"
 			],
 			"chargeMoves": [
 				"rock-blast",
@@ -31435,11 +31358,11 @@
 			"type1": "rock",
 			"type2": "fire",
 			"family": "family-rolycoly",
-			"parent": "rolycoly",
+			"parent": "carkol",
 			"shadow": false,
 			"fastMoves": [
 				"smack-down",
-				"incinerate"
+				"fire-spin"
 			],
 			"chargeMoves": [
 				"rock-blast",
