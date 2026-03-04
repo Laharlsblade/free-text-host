@@ -114,7 +114,7 @@
 				"energyDelta": 11
 			},
 			"pvp": {
-				"power": 8,
+				"power": 7,
 				"duration": 2,
 				"energyDelta": 7
 			}
@@ -658,9 +658,9 @@
 				"energyDelta": 5
 			},
 			"pvp": {
-				"power": 4,
+				"power": 5,
 				"duration": 2,
-				"energyDelta": 5
+				"energyDelta": 8
 			}
 		},
 		{
@@ -726,9 +726,9 @@
 				"energyDelta": 6
 			},
 			"pvp": {
-				"power": 4,
+				"power": 3,
 				"duration": 2,
-				"energyDelta": 8
+				"energyDelta": 9
 			}
 		},
 		{
@@ -743,7 +743,7 @@
 				"energyDelta": 13
 			},
 			"pvp": {
-				"power": 12,
+				"power": 11,
 				"duration": 3,
 				"energyDelta": 10
 			}
@@ -862,7 +862,7 @@
 				"energyDelta": 7
 			},
 			"pvp": {
-				"power": 3,
+				"power": 4,
 				"duration": 2,
 				"energyDelta": 9
 			}
@@ -1032,7 +1032,7 @@
 				"energyDelta": 7
 			},
 			"pvp": {
-				"power": 12,
+				"power": 11,
 				"duration": 3,
 				"energyDelta": 8
 			}
@@ -1298,9 +1298,9 @@
 				"energyDelta": 7
 			},
 			"pvp": {
-				"power": 12,
+				"power": 11,
 				"duration": 3,
-				"energyDelta": 8
+				"energyDelta": 10
 			}
 		},
 		{
@@ -1317,7 +1317,7 @@
 			"pvp": {
 				"power": 5,
 				"duration": 2,
-				"energyDelta": 7
+				"energyDelta": 8
 			}
 		},
 		{
@@ -1581,10 +1581,10 @@
 			"type": "dark",
 			"pve": {
 				"power": 100,
-				"duration": 2700,
+				"duration": 2500,
 				"dws": 2100,
 				"dwe": 2500,
-				"energyDelta": 45
+				"energyDelta": 50
 			},
 			"pvp": {
 				"power": 100,
@@ -1601,10 +1601,10 @@
 			"type": "electric",
 			"pve": {
 				"power": 100,
-				"duration": 2700,
+				"duration": 2500,
 				"dws": 2100,
 				"dwe": 2500,
-				"energyDelta": 45
+				"energyDelta": 50
 			},
 			"pvp": {
 				"power": 100,
@@ -1993,7 +1993,7 @@
 			"type": "dragon",
 			"pve": {
 				"power": 120,
-				"duration": 3300,
+				"duration": 3500,
 				"dws": 1880,
 				"dwe": 3200,
 				"energyDelta": 100
@@ -2120,7 +2120,7 @@
 			"type": "normal",
 			"pve": {
 				"power": 210,
-				"duration": 1800,
+				"duration": 2000,
 				"dws": 700,
 				"dwe": 1700,
 				"energyDelta": 100
@@ -2320,7 +2320,7 @@
 			"type": "dragon",
 			"pve": {
 				"power": 155,
-				"duration": 3300,
+				"duration": 3500,
 				"dws": 1880,
 				"dwe": 3200,
 				"energyDelta": 50
@@ -2358,7 +2358,7 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 20,
+				"power": 40,
 				"energyDelta": 40,
 				"effect": {
 					"chance": 1,
@@ -2412,6 +2412,26 @@
 			"pvp": {
 				"power": 80,
 				"energyDelta": 45
+			}
+		},
+		{
+			"id": "drum-beating",
+			"name": "Drum Beating",
+			"type": "grass",
+			"pve": {
+				"power": 115,
+				"duration": 4500,
+				"dws": 3000,
+				"dwe": 4000,
+				"energyDelta": 33
+			},
+			"pvp": {
+				"power": 60,
+				"energyDelta": 35,
+				"effect": {
+					"chance": 1,
+					"enemyAtk": -1
+				}
 			}
 		},
 		{
@@ -2676,7 +2696,7 @@
 			"type": "grass",
 			"pve": {
 				"power": 75,
-				"duration": 2700,
+				"duration": 3000,
 				"dws": 1800,
 				"dwe": 2700,
 				"energyDelta": 33
@@ -2982,8 +3002,8 @@
 				"energyDelta": 100
 			},
 			"pvp": {
-				"power": 95,
-				"energyDelta": 75
+				"power": 75,
+				"energyDelta": 45
 			}
 		},
 		{
@@ -3649,8 +3669,8 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 60,
-				"energyDelta": 40
+				"power": 65,
+				"energyDelta": 45
 			}
 		},
 		{
@@ -3745,7 +3765,7 @@
 				"energyDelta": 35,
 				"effect": {
 					"chance": 0.125,
-					"selfAtk": 2
+					"selfAtk": 1
 				}
 			}
 		},
@@ -4164,6 +4184,22 @@
 			}
 		},
 		{
+			"id": "pyroball",
+			"name": "Pyroball",
+			"type": "fire",
+			"pve": {
+				"power": 150,
+				"duration": 2000,
+				"dws": 900,
+				"dwe": 1600,
+				"energyDelta": 100
+			},
+			"pvp": {
+				"power": 75,
+				"energyDelta": 40
+			}
+		},
+		{
 			"id": "rage-fist",
 			"name": "Rage Fist",
 			"type": "ghost",
@@ -4294,7 +4330,7 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 80,
+				"power": 75,
 				"energyDelta": 50,
 				"effect": {
 					"chance": 1,
@@ -4406,7 +4442,7 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 25,
+				"power": 40,
 				"energyDelta": 40,
 				"effect": {
 					"chance": 1,
@@ -5072,7 +5108,7 @@
 			"type": "electric",
 			"pve": {
 				"power": 220,
-				"duration": 3300,
+				"duration": 3500,
 				"dws": 1880,
 				"dwe": 3200,
 				"energyDelta": 100
@@ -5211,8 +5247,8 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 45,
-				"energyDelta": 45
+				"power": 70,
+				"energyDelta": 40
 			}
 		},
 		{
@@ -5284,7 +5320,7 @@
 			},
 			"pvp": {
 				"power": 90,
-				"energyDelta": 50,
+				"energyDelta": 40,
 				"effect": {
 					"chance": 1,
 					"selfDef": -1
@@ -6147,6 +6183,7 @@
 				"aerial-ace",
 				"brave-bird",
 				"feather-dance",
+				"heat-wave",
 				"air-cutter"
 			],
 			"eliteMoves": [
@@ -6178,6 +6215,7 @@
 				"aerial-ace",
 				"brave-bird",
 				"feather-dance",
+				"heat-wave",
 				"air-cutter"
 			],
 			"eliteMoves": [
@@ -7069,12 +7107,14 @@
 				"weather-ball-fire",
 				"scorching-sands",
 				"fire-blast",
-				"flamethrower"
+				"flamethrower",
+				"energy-ball"
 			],
 			"eliteMoves": [
 				"ember",
 				"fire-blast",
-				"flamethrower"
+				"flamethrower",
+				"energy-ball"
 			],
 			"atk": 169,
 			"def": 190,
@@ -7099,7 +7139,11 @@
 				"ice-beam",
 				"blizzard",
 				"psyshock",
-				"weather-ball-ice"
+				"weather-ball-ice",
+				"chilling-water"
+			],
+			"eliteMoves": [
+				"chilling-water"
 			],
 			"atk": 170,
 			"def": 193,
@@ -8210,6 +8254,34 @@
 			],
 			"atk": 207,
 			"def": 135,
+			"hp": 190,
+			"candyDistance": 3
+		},
+		{
+			"id": "mega-victreebel",
+			"name": "Mega Victreebel",
+			"type1": "grass",
+			"type2": "poison",
+			"family": "family-bellsprout",
+			"parent": "weepinbell",
+			"shadow": true,
+			"fastMoves": [
+				"razor-leaf",
+				"acid",
+				"magical-leaf"
+			],
+			"chargeMoves": [
+				"leaf-blade",
+				"sludge-bomb",
+				"solar-beam",
+				"leaf-tornado",
+				"acid-spray"
+			],
+			"eliteMoves": [
+				"magical-leaf"
+			],
+			"atk": 265,
+			"def": 181,
 			"hp": 190,
 			"candyDistance": 3
 		},
@@ -10851,7 +10923,8 @@
 			"shadow": true,
 			"fastMoves": [
 				"frost-breath",
-				"ice-shard"
+				"ice-shard",
+				"powder-snow"
 			],
 			"chargeMoves": [
 				"ice-beam",
@@ -10908,7 +10981,8 @@
 				"thunderbolt",
 				"thunder",
 				"ancient-power",
-				"drill-peck"
+				"drill-peck",
+				"heat-wave"
 			],
 			"eliteMoves": [
 				"thunder-shock"
@@ -10956,6 +11030,7 @@
 				"heat-wave",
 				"overheat",
 				"ancient-power",
+				"fly",
 				"sky-attack"
 			],
 			"eliteMoves": [
@@ -11068,6 +11143,38 @@
 			],
 			"atk": 263,
 			"def": 198,
+			"hp": 209,
+			"candyDistance": 5
+		},
+		{
+			"id": "mega-dragonite",
+			"name": "Mega Dragonite",
+			"type1": "dragon",
+			"type2": "flying",
+			"family": "family-dratini",
+			"parent": "dragonair",
+			"shadow": true,
+			"fastMoves": [
+				"dragon-tail",
+				"steel-wing",
+				"dragon-breath"
+			],
+			"chargeMoves": [
+				"hurricane",
+				"hyper-beam",
+				"outrage",
+				"dragon-claw",
+				"super-power",
+				"thunder-punch",
+				"draco-meteor",
+				"dragon-pulse"
+			],
+			"eliteMoves": [
+				"draco-meteor",
+				"dragon-pulse"
+			],
+			"atk": 299,
+			"def": 255,
 			"hp": 209,
 			"candyDistance": 5
 		},
@@ -11838,7 +11945,8 @@
 				"dazzling-gleam",
 				"aerial-ace",
 				"draining-kiss",
-				"psyshock"
+				"psyshock",
+				"heat-wave"
 			],
 			"eliteMoves": [
 				"steel-wing",
@@ -12924,14 +13032,16 @@
 			"shadow": false,
 			"fastMoves": [
 				"counter",
-				"struggle-bug"
+				"struggle-bug",
+				"fury-cutter"
 			],
 			"chargeMoves": [
 				"megahorn",
 				"close-combat",
 				"earthquake",
 				"rock-blast",
-				"upper-hand"
+				"upper-hand",
+				"rock-tomb"
 			],
 			"atk": 234,
 			"def": 179,
@@ -12947,14 +13057,16 @@
 			"shadow": false,
 			"fastMoves": [
 				"counter",
-				"struggle-bug"
+				"struggle-bug",
+				"fury-cutter"
 			],
 			"chargeMoves": [
 				"megahorn",
 				"close-combat",
 				"earthquake",
 				"rock-blast",
-				"upper-hand"
+				"upper-hand",
+				"rock-tomb"
 			],
 			"atk": 334,
 			"def": 223,
@@ -16070,7 +16182,9 @@
 				"earthquake",
 				"overheat",
 				"solar-beam",
-				"earth-power"
+				"earth-power",
+				"rock-tomb",
+				"scorching-sands"
 			],
 			"atk": 194,
 			"def": 136,
@@ -16094,7 +16208,9 @@
 				"earthquake",
 				"overheat",
 				"solar-beam",
-				"earth-power"
+				"earth-power",
+				"rock-tomb",
+				"scorching-sands"
 			],
 			"atk": 253,
 			"def": 183,
@@ -16260,6 +16376,7 @@
 				"boomburst",
 				"scorching-sands",
 				"sand-tomb",
+				"twister",
 				"earth-power"
 			],
 			"eliteMoves": [
@@ -18698,7 +18815,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"tackle",
-				"bug-bite"
+				"bug-bite",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"struggle"
@@ -18719,7 +18837,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"confusion",
-				"bug-bite"
+				"bug-bite",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"psybeam",
@@ -18743,7 +18862,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"confusion",
-				"bug-bite"
+				"bug-bite",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"psybeam",
@@ -18768,7 +18888,8 @@
 			"fastMoves": [
 				"confusion",
 				"bug-bite",
-				"metal-sound"
+				"metal-sound",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"psybeam",
@@ -19590,6 +19711,7 @@
 				"fire-blast",
 				"sand-tomb",
 				"breaking-swipe",
+				"twister",
 				"earth-power"
 			],
 			"eliteMoves": [
@@ -19619,6 +19741,7 @@
 				"fire-blast",
 				"sand-tomb",
 				"breaking-swipe",
+				"twister",
 				"earth-power"
 			],
 			"eliteMoves": [
@@ -20387,7 +20510,8 @@
 				"earthquake",
 				"aerial-ace",
 				"night-slash",
-				"sand-tomb"
+				"sand-tomb",
+				"acrobatics"
 			],
 			"atk": 185,
 			"def": 222,
@@ -20692,7 +20816,8 @@
 			"chargeMoves": [
 				"ominous-wind",
 				"thunderbolt",
-				"thunder"
+				"thunder",
+				"leaf-storm"
 			],
 			"atk": 204,
 			"def": 219,
@@ -22832,7 +22957,8 @@
 				"megahorn",
 				"sludge-bomb",
 				"gyro-ball",
-				"x-scissor"
+				"x-scissor",
+				"aqua-tail"
 			],
 			"atk": 203,
 			"def": 175,
@@ -25474,7 +25600,7 @@
 			"type1": "electric",
 			"type2": "flying",
 			"family": "family-thundurus",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"astonish",
 				"thunder-shock"
@@ -25497,7 +25623,7 @@
 			"type1": "electric",
 			"type2": "flying",
 			"family": "family-thundurus",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"bite",
 				"volt-switch"
@@ -25934,7 +26060,7 @@
 			"evolutions": [
 				"quilladin"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"take-down",
 				"vine-whip"
@@ -25958,7 +26084,7 @@
 			"evolutions": [
 				"chesnaught"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"low-kick",
 				"vine-whip"
@@ -25980,7 +26106,7 @@
 			"type2": "fighting",
 			"family": "family-chespin",
 			"parent": "quilladin",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"low-kick",
 				"vine-whip",
@@ -26010,7 +26136,7 @@
 			"evolutions": [
 				"braixen"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"scratch",
 				"ember"
@@ -26034,7 +26160,7 @@
 			"evolutions": [
 				"delphox"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"scratch",
 				"ember"
@@ -26056,7 +26182,7 @@
 			"type2": "psychic",
 			"family": "family-fennekin",
 			"parent": "braixen",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"scratch",
 				"fire-spin",
@@ -26087,7 +26213,7 @@
 			"evolutions": [
 				"frogadier"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"pound",
 				"bubble"
@@ -26111,7 +26237,7 @@
 			"evolutions": [
 				"greninja"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"pound",
 				"bubble"
@@ -26133,7 +26259,7 @@
 			"type2": "dark",
 			"family": "family-froakie",
 			"parent": "frogadier",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"feint-attack",
 				"bubble",
@@ -26886,6 +27012,30 @@
 			],
 			"atk": 177,
 			"def": 165,
+			"hp": 200,
+			"candyDistance": 3
+		},
+		{
+			"id": "mega-malamar",
+			"name": "Mega Malamar",
+			"type1": "dark",
+			"type2": "psychic",
+			"family": "family-inkay",
+			"parent": "inkay",
+			"shadow": true,
+			"fastMoves": [
+				"peck",
+				"psycho-cut",
+				"psywave"
+			],
+			"chargeMoves": [
+				"psybeam",
+				"foul-play",
+				"super-power",
+				"hyper-beam"
+			],
+			"atk": 208,
+			"def": 222,
 			"hp": 200,
 			"candyDistance": 3
 		},
@@ -27976,7 +28126,8 @@
 				"hydro-pump",
 				"overheat",
 				"earth-power",
-				"sludge-bomb"
+				"sludge-bomb",
+				"scald"
 			],
 			"atk": 252,
 			"def": 216,
@@ -30526,7 +30677,8 @@
 			"fastMoves": [
 				"sucker-punch",
 				"counter",
-				"poison-jab"
+				"poison-jab",
+				"shadow-claw"
 			],
 			"chargeMoves": [
 				"close-combat",
@@ -30761,7 +30913,12 @@
 			"chargeMoves": [
 				"energy-ball",
 				"grass-knot",
-				"earth-power"
+				"earth-power",
+				"drum-beating",
+				"frenzy-plant"
+			],
+			"eliteMoves": [
+				"frenzy-plant"
 			],
 			"atk": 239,
 			"def": 168,
@@ -33147,13 +33304,14 @@
 			"shadow": false,
 			"fastMoves": [
 				"astonish",
-				"zen-headbutt",
+				"extrasensory",
 				"fairy-wind"
 			],
 			"chargeMoves": [
-				"dazzling-gleam",
+				"moonblast",
 				"fly",
-				"grass-knot"
+				"earth-power",
+				"mystical-fire"
 			],
 			"atk": 250,
 			"def": 201,
@@ -34725,7 +34883,8 @@
 			"chargeMoves": [
 				"dazzling-gleam",
 				"power-gem",
-				"sludge-wave"
+				"sludge-wave",
+				"meteor-beam"
 			],
 			"atk": 246,
 			"def": 177,
@@ -34791,7 +34950,7 @@
 			"chargeMoves": [
 				"aerial-ace",
 				"brave-bird",
-				"close-combat"
+				"upper-hand"
 			],
 			"atk": 227,
 			"def": 145,
