@@ -30050,12 +30050,12 @@
 			"shadow": false,
 			"fastMoves": [
 				"shadow-claw",
-				"charm"
+				"hex"
 			],
 			"chargeMoves": [
 				"shadow-sneak",
 				"play-rough",
-				"shadow-ball"
+				"thunder"
 			],
 			"atk": 177,
 			"def": 199,
@@ -30984,7 +30984,12 @@
 			"chargeMoves": [
 				"flame-charge",
 				"flamethrower",
-				"focus-blast"
+				"focus-blast",
+				"pyroball",
+				"blast-burn"
+			],
+			"eliteMoves": [
+				"blast-burn"
 			],
 			"atk": 238,
 			"def": 163,
@@ -31233,11 +31238,13 @@
 			"shadow": false,
 			"fastMoves": [
 				"struggle-bug",
-				"confusion"
+				"confusion",
+				"psycho-cut"
 			],
 			"chargeMoves": [
 				"bug-buzz",
-				"psychic"
+				"psychic",
+				"psyshock"
 			],
 			"atk": 156,
 			"def": 240,
