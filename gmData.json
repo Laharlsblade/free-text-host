@@ -2907,6 +2907,22 @@
 			}
 		},
 		{
+			"id": "gigaton-hammer",
+			"name": "Gigaton Hammer",
+			"type": "steel",
+			"pve": {
+				"power": 300,
+				"duration": 3000,
+				"dws": 2000,
+				"dwe": 3100,
+				"energyDelta": 100
+			},
+			"pvp": {
+				"power": 130,
+				"energyDelta": 60
+			}
+		},
+		{
 			"id": "glaciate",
 			"name": "Glaciate",
 			"type": "ice",
@@ -6465,6 +6481,28 @@
 			"candyToEvolve": 50
 		},
 		{
+			"id": "pikachu-bb-2026",
+			"name": "Pikachu Bb 2026",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pichu",
+			"shadow": false,
+			"fastMoves": [
+				"thunder-shock",
+				"quick-attack"
+			],
+			"chargeMoves": [
+				"discharge",
+				"thunderbolt",
+				"wild-charge"
+			],
+			"atk": 112,
+			"def": 96,
+			"hp": 111,
+			"candyDistance": 1,
+			"baseId": "pikachu"
+		},
+		{
 			"id": "pikachu-costume-2020",
 			"name": "Pikachu Costume 2020",
 			"type1": "electric",
@@ -6533,28 +6571,6 @@
 			],
 			"eliteMoves": [
 				"present"
-			],
-			"atk": 112,
-			"def": 96,
-			"hp": 111,
-			"candyDistance": 1,
-			"baseId": "pikachu"
-		},
-		{
-			"id": "pikachu-gofest-2024-mtiara",
-			"name": "Pikachu Gofest 2024 Mtiara",
-			"type1": "electric",
-			"family": "family-pikachu",
-			"parent": "pichu",
-			"shadow": false,
-			"fastMoves": [
-				"thunder-shock",
-				"quick-attack"
-			],
-			"chargeMoves": [
-				"discharge",
-				"thunderbolt",
-				"wild-charge"
 			],
 			"atk": 112,
 			"def": 96,
