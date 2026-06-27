@@ -2943,6 +2943,26 @@
 			}
 		},
 		{
+			"id": "glaive-rush",
+			"name": "Glaive Rush",
+			"type": "dragon",
+			"pve": {
+				"power": 105,
+				"duration": 2000,
+				"dws": 1700,
+				"dwe": 1900,
+				"energyDelta": 50
+			},
+			"pvp": {
+				"power": 90,
+				"energyDelta": 40,
+				"effect": {
+					"chance": 1,
+					"selfDef": -1
+				}
+			}
+		},
+		{
 			"id": "grass-knot",
 			"name": "Grass Knot",
 			"type": "grass",
@@ -4819,6 +4839,26 @@
 			"pvp": {
 				"power": 110,
 				"energyDelta": 65
+			}
+		},
+		{
+			"id": "snipe-shot",
+			"name": "Snipe Shot",
+			"type": "water",
+			"pve": {
+				"power": 100,
+				"duration": 3500,
+				"dws": 2000,
+				"dwe": 2900,
+				"energyDelta": 33
+			},
+			"pvp": {
+				"power": 65,
+				"energyDelta": 35,
+				"effect": {
+					"chance": 0.125,
+					"selfAtk": 2
+				}
 			}
 		},
 		{
@@ -8950,7 +8990,7 @@
 			"evolutions": [
 				"dewgong"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"ice-shard",
 				"lick",
@@ -8979,7 +9019,7 @@
 			"type2": "ice",
 			"family": "family-seel",
 			"parent": "seel",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"frost-breath",
 				"iron-tail",
@@ -11697,7 +11737,7 @@
 			"evolutions": [
 				"noctowl"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"feint-attack",
 				"peck"
@@ -11720,7 +11760,7 @@
 			"type2": "flying",
 			"family": "family-hoothoot",
 			"parent": "hoothoot",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"wing-attack",
 				"extrasensory"
@@ -13535,6 +13575,27 @@
 			],
 			"atk": 148,
 			"def": 226,
+			"hp": 163,
+			"candyDistance": 5
+		},
+		{
+			"id": "mega-skarmory",
+			"name": "Mega Skarmory",
+			"type1": "steel",
+			"type2": "flying",
+			"family": "family-skarmory",
+			"shadow": true,
+			"fastMoves": [
+				"steel-wing",
+				"air-slash"
+			],
+			"chargeMoves": [
+				"brave-bird",
+				"sky-attack",
+				"flash-cannon"
+			],
+			"atk": 273,
+			"def": 228,
 			"hp": 163,
 			"candyDistance": 5
 		},
@@ -21272,7 +21333,6 @@
 			"name": "Manaphy",
 			"type1": "water",
 			"family": "family-manaphy",
-			"parent": "phione",
 			"shadow": false,
 			"fastMoves": [
 				"waterfall",
@@ -24847,7 +24907,7 @@
 			"evolutions": [
 				"fraxure"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"scratch",
 				"iron-tail"
@@ -24872,7 +24932,7 @@
 			"evolutions": [
 				"haxorus"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"dragon-tail",
 				"iron-tail"
@@ -24894,7 +24954,7 @@
 			"type1": "dragon",
 			"family": "family-axew",
 			"parent": "fraxure",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"dragon-tail",
 				"counter"
@@ -25767,7 +25827,7 @@
 			"type1": "dragon",
 			"type2": "fire",
 			"family": "family-reshiram",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"dragon-breath",
 				"fire-fang"
@@ -27973,7 +28033,7 @@
 			"evolutions": [
 				"noivern"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"wing-attack",
 				"bite"
@@ -27995,7 +28055,7 @@
 			"type2": "dragon",
 			"family": "family-noibat",
 			"parent": "noibat",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"air-slash",
 				"bite"
@@ -31240,7 +31300,7 @@
 			"evolutions": [
 				"corvisquire"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"peck",
 				"air-slash",
@@ -31264,7 +31324,7 @@
 			"evolutions": [
 				"corviknight"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"peck",
 				"air-slash",
@@ -31286,7 +31346,7 @@
 			"type2": "steel",
 			"family": "family-rookidee",
 			"parent": "corvisquire",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"steel-wing",
 				"air-slash",
@@ -35646,8 +35706,10 @@
 				"avalanche",
 				"outrage",
 				"blizzard",
-				"icy-wind"
+				"icy-wind",
+				""
 			],
+			"eliteMoves": [],
 			"atk": 254,
 			"def": 168,
 			"hp": 229,
@@ -35661,6 +35723,23 @@
 			"evolutions": [
 				"gholdengo"
 			],
+			"shadow": false,
+			"fastMoves": [
+				"astonish"
+			],
+			"chargeMoves": [
+				"shadow-ball"
+			],
+			"atk": 140,
+			"def": 76,
+			"hp": 128,
+			"candyDistance": 5
+		},
+		{
+			"id": "gimmighoul",
+			"name": "Gimmighoul",
+			"type1": "ghost",
+			"family": "family-gimmighoul",
 			"shadow": false,
 			"fastMoves": [
 				"astonish"
