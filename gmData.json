@@ -2227,6 +2227,20 @@
 			}
 		},
 		{
+			"id": "dive",
+			"name": "Dive",
+			"type": "water",
+			"pve": {
+				"power": 70,
+				"duration": 3300,
+				"energyDelta": 33
+			},
+			"pvp": {
+				"power": 50,
+				"energyDelta": 40
+			}
+		},
+		{
 			"id": "doom-desire",
 			"name": "Doom Desire",
 			"type": "steel",
@@ -2976,6 +2990,38 @@
 			"pvp": {
 				"power": 90,
 				"energyDelta": 50
+			}
+		},
+		{
+			"id": "gulp-missile-gorging",
+			"name": "Gulp Missile Gorging",
+			"type": "normal",
+			"pve": {
+				"duration": 2500,
+				"energyDelta": null
+			},
+			"pvp": {
+				"energyDelta": null,
+				"effect": {
+					"chance": 1,
+					"enemyAtk": -2
+				}
+			}
+		},
+		{
+			"id": "gulp-missile-gulping",
+			"name": "Gulp Missile Gulping",
+			"type": "normal",
+			"pve": {
+				"duration": 2500,
+				"energyDelta": null
+			},
+			"pvp": {
+				"energyDelta": null,
+				"effect": {
+					"chance": 1,
+					"enemyDef": -1
+				}
 			}
 		},
 		{
@@ -6755,6 +6801,66 @@
 			],
 			"atk": 193,
 			"def": 151,
+			"hp": 155,
+			"candyDistance": 1
+		},
+		{
+			"id": "mega-raichu-x",
+			"name": "Mega Raichu X",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pikachu",
+			"shadow": false,
+			"fastMoves": [
+				"volt-switch",
+				"spark",
+				"charm",
+				"thunder-shock"
+			],
+			"chargeMoves": [
+				"brick-break",
+				"thunder-punch",
+				"wild-charge",
+				"skull-bash",
+				"trailblaze",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"thunder"
+			],
+			"atk": 277,
+			"def": 203,
+			"hp": 155,
+			"candyDistance": 1
+		},
+		{
+			"id": "mega-raichu-Y",
+			"name": "Mega Raichu Y",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pikachu",
+			"shadow": false,
+			"fastMoves": [
+				"volt-switch",
+				"spark",
+				"charm",
+				"thunder-shock"
+			],
+			"chargeMoves": [
+				"brick-break",
+				"thunder-punch",
+				"wild-charge",
+				"skull-bash",
+				"trailblaze",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"thunder"
+			],
+			"atk": 339,
+			"def": 157,
 			"hp": 155,
 			"candyDistance": 1
 		},
@@ -11263,7 +11369,8 @@
 			"shadow": true,
 			"fastMoves": [
 				"psycho-cut",
-				"confusion"
+				"confusion",
+				"counter"
 			],
 			"chargeMoves": [
 				"psychic",
@@ -11276,6 +11383,7 @@
 				"hyper-beam"
 			],
 			"eliteMoves": [
+				"counter",
 				"psystrike",
 				"shadow-ball",
 				"hyper-beam"
@@ -11293,7 +11401,8 @@
 			"shadow": true,
 			"fastMoves": [
 				"psycho-cut",
-				"confusion"
+				"confusion",
+				"counter"
 			],
 			"chargeMoves": [
 				"psychic",
@@ -11306,6 +11415,7 @@
 				"hyper-beam"
 			],
 			"eliteMoves": [
+				"counter",
 				"psystrike",
 				"shadow-ball",
 				"hyper-beam"
@@ -11323,7 +11433,8 @@
 			"shadow": true,
 			"fastMoves": [
 				"psycho-cut",
-				"confusion"
+				"confusion",
+				"counter"
 			],
 			"chargeMoves": [
 				"psychic",
@@ -11336,6 +11447,7 @@
 				"hyper-beam"
 			],
 			"eliteMoves": [
+				"counter",
 				"psystrike",
 				"shadow-ball",
 				"hyper-beam"
@@ -31238,7 +31350,12 @@
 			"chargeMoves": [
 				"water-pulse",
 				"surf",
-				"shadow-ball"
+				"shadow-ball",
+				"snipe-shot",
+				"hydro-cannon"
+			],
+			"eliteMoves": [
+				"hydro-cannon"
 			],
 			"atk": 262,
 			"def": 142,
@@ -31848,9 +31965,10 @@
 				"water-gun"
 			],
 			"chargeMoves": [
-				"drill-peck",
+				"dive",
 				"fly",
-				"hydro-pump"
+				"hydro-pump",
+				"surf"
 			],
 			"atk": 173,
 			"def": 163,
@@ -35707,9 +35825,11 @@
 				"outrage",
 				"blizzard",
 				"icy-wind",
-				""
+				"glaive-rush"
 			],
-			"eliteMoves": [],
+			"eliteMoves": [
+				"glaive-rush"
+			],
 			"atk": 254,
 			"def": 168,
 			"hp": 229,
@@ -35723,23 +35843,6 @@
 			"evolutions": [
 				"gholdengo"
 			],
-			"shadow": false,
-			"fastMoves": [
-				"astonish"
-			],
-			"chargeMoves": [
-				"shadow-ball"
-			],
-			"atk": 140,
-			"def": 76,
-			"hp": 128,
-			"candyDistance": 5
-		},
-		{
-			"id": "gimmighoul",
-			"name": "Gimmighoul",
-			"type1": "ghost",
-			"family": "family-gimmighoul",
 			"shadow": false,
 			"fastMoves": [
 				"astonish"
