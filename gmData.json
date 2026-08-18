@@ -10314,6 +10314,38 @@
 			"candyDistance": 3
 		},
 		{
+			"id": "mega-starmie",
+			"name": "Mega Starmie",
+			"type1": "water",
+			"type2": "psychic",
+			"family": "family-staryu",
+			"parent": "staryu",
+			"shadow": true,
+			"fastMoves": [
+				"hidden-power",
+				"water-gun",
+				"psywave",
+				"tackle"
+			],
+			"chargeMoves": [
+				"hydro-pump",
+				"power-gem",
+				"psychic",
+				"thunder",
+				"ice-beam",
+				"psybeam",
+				"surf",
+				"aqua-jet"
+			],
+			"eliteMoves": [
+				"tackle"
+			],
+			"atk": 276,
+			"def": 229,
+			"hp": 155,
+			"candyDistance": 3
+		},
+		{
 			"id": "mr-mime",
 			"name": "Mr Mime",
 			"type1": "psychic",
@@ -26417,6 +26449,35 @@
 			"candyDistance": 3
 		},
 		{
+			"id": "mega-chesnaught",
+			"name": "Mega Chesnaught",
+			"type1": "grass",
+			"type2": "fighting",
+			"family": "family-chespin",
+			"parent": "quilladin",
+			"shadow": true,
+			"fastMoves": [
+				"low-kick",
+				"vine-whip",
+				"smack-down"
+			],
+			"chargeMoves": [
+				"gyro-ball",
+				"energy-ball",
+				"super-power",
+				"solar-beam",
+				"thunder-punch",
+				"frenzy-plant"
+			],
+			"eliteMoves": [
+				"frenzy-plant"
+			],
+			"atk": 242,
+			"def": 282,
+			"hp": 204,
+			"candyDistance": 3
+		},
+		{
 			"id": "fennekin",
 			"name": "Fennekin",
 			"type1": "fire",
@@ -26494,6 +26555,36 @@
 			"candyDistance": 3
 		},
 		{
+			"id": "mega-delphox",
+			"name": "Mega Delphox",
+			"type1": "fire",
+			"type2": "psychic",
+			"family": "family-fennekin",
+			"parent": "braixen",
+			"shadow": true,
+			"fastMoves": [
+				"scratch",
+				"fire-spin",
+				"zen-headbutt"
+			],
+			"chargeMoves": [
+				"psychic",
+				"flamethrower",
+				"flame-charge",
+				"fire-blast",
+				"mystical-fire",
+				"psyshock",
+				"blast-burn"
+			],
+			"eliteMoves": [
+				"blast-burn"
+			],
+			"atk": 331,
+			"def": 235,
+			"hp": 181,
+			"candyDistance": 3
+		},
+		{
 			"id": "froakie",
 			"name": "Froakie",
 			"type1": "water",
@@ -26565,6 +26656,34 @@
 			],
 			"atk": 223,
 			"def": 152,
+			"hp": 176,
+			"candyDistance": 3
+		},
+		{
+			"id": "mega-greninja",
+			"name": "Mega Greninja",
+			"type1": "water",
+			"type2": "dark",
+			"family": "family-froakie",
+			"parent": "frogadier",
+			"shadow": true,
+			"fastMoves": [
+				"feint-attack",
+				"bubble",
+				"water-shuriken"
+			],
+			"chargeMoves": [
+				"night-slash",
+				"aerial-ace",
+				"surf",
+				"hydro-pump",
+				"hydro-cannon"
+			],
+			"eliteMoves": [
+				"hydro-cannon"
+			],
+			"atk": 299,
+			"def": 180,
 			"hp": 176,
 			"candyDistance": 3
 		},
@@ -31588,7 +31707,11 @@
 			],
 			"chargeMoves": [
 				"night-slash",
-				"play-rough"
+				"play-rough",
+				"icy-wind"
+			],
+			"eliteMoves": [
+				"icy-wind"
 			],
 			"atk": 172,
 			"def": 164,
