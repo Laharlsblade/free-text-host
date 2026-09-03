@@ -6585,6 +6585,126 @@
 			"candyToEvolve": 50
 		},
 		{
+			"id": "pikachu",
+			"name": "Pikachu",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pichu",
+			"shadow": false,
+			"fastMoves": [
+				"thunder-shock",
+				"quick-attack",
+				"present"
+			],
+			"chargeMoves": [
+				"discharge",
+				"thunderbolt",
+				"wild-charge",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"present",
+				"surf",
+				"thunder"
+			],
+			"atk": 112,
+			"def": 96,
+			"hp": 111,
+			"candyDistance": 1,
+			"candyToEvolve": 50
+		},
+		{
+			"id": "pikachu",
+			"name": "Pikachu",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pichu",
+			"shadow": false,
+			"fastMoves": [
+				"thunder-shock",
+				"quick-attack",
+				"present"
+			],
+			"chargeMoves": [
+				"discharge",
+				"thunderbolt",
+				"wild-charge",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"present",
+				"surf",
+				"thunder"
+			],
+			"atk": 112,
+			"def": 96,
+			"hp": 111,
+			"candyDistance": 1,
+			"candyToEvolve": 50
+		},
+		{
+			"id": "pikachu",
+			"name": "Pikachu",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pichu",
+			"shadow": false,
+			"fastMoves": [
+				"thunder-shock",
+				"quick-attack",
+				"present"
+			],
+			"chargeMoves": [
+				"discharge",
+				"thunderbolt",
+				"wild-charge",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"present",
+				"surf",
+				"thunder"
+			],
+			"atk": 112,
+			"def": 96,
+			"hp": 111,
+			"candyDistance": 1,
+			"candyToEvolve": 50
+		},
+		{
+			"id": "pikachu",
+			"name": "Pikachu",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pichu",
+			"shadow": false,
+			"fastMoves": [
+				"thunder-shock",
+				"quick-attack",
+				"present"
+			],
+			"chargeMoves": [
+				"discharge",
+				"thunderbolt",
+				"wild-charge",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"present",
+				"surf",
+				"thunder"
+			],
+			"atk": 112,
+			"def": 96,
+			"hp": 111,
+			"candyDistance": 1,
+			"candyToEvolve": 50
+		},
+		{
 			"id": "pikachu-bb-2026",
 			"name": "Pikachu Bb 2026",
 			"type1": "electric",
@@ -6707,6 +6827,36 @@
 			"hp": 111,
 			"candyDistance": 1,
 			"baseId": "pikachu"
+		},
+		{
+			"id": "pikachu",
+			"name": "Pikachu",
+			"type1": "electric",
+			"family": "family-pikachu",
+			"parent": "pichu",
+			"shadow": false,
+			"fastMoves": [
+				"thunder-shock",
+				"quick-attack",
+				"present"
+			],
+			"chargeMoves": [
+				"discharge",
+				"thunderbolt",
+				"wild-charge",
+				"surf",
+				"thunder"
+			],
+			"eliteMoves": [
+				"present",
+				"surf",
+				"thunder"
+			],
+			"atk": 112,
+			"def": 96,
+			"hp": 111,
+			"candyDistance": 1,
+			"candyToEvolve": 50
 		},
 		{
 			"id": "pikachu-pop-star",
@@ -18759,6 +18909,35 @@
 			],
 			"atk": 234,
 			"def": 140,
+			"hp": 198,
+			"candyDistance": 1,
+			"candyToEvolve": 25
+		},
+		{
+			"id": "mega-staraptor",
+			"name": "Mega Staraptor",
+			"type1": "normal",
+			"type2": "flying",
+			"family": "family-starly",
+			"parent": "staravia",
+			"shadow": true,
+			"fastMoves": [
+				"wing-attack",
+				"quick-attack",
+				"sand-attack",
+				"gust"
+			],
+			"chargeMoves": [
+				"brave-bird",
+				"heat-wave",
+				"close-combat",
+				"fly"
+			],
+			"eliteMoves": [
+				"gust"
+			],
+			"atk": 278,
+			"def": 207,
 			"hp": 198,
 			"candyDistance": 1,
 			"candyToEvolve": 25
@@ -34680,7 +34859,7 @@
 			],
 			"chargeMoves": [
 				"crunch",
-				"payback",
+				"psychic-fangs",
 				"dig"
 			],
 			"atk": 140,
@@ -34701,7 +34880,7 @@
 			],
 			"chargeMoves": [
 				"crunch",
-				"payback",
+				"psychic-fangs",
 				"dig"
 			],
 			"atk": 230,
