@@ -63,9 +63,9 @@
 				"energyDelta": 4
 			},
 			"pvp": {
-				"power": 4,
+				"power": 2,
 				"duration": 1,
-				"energyDelta": 2
+				"energyDelta": 4
 			}
 		},
 		{
@@ -148,7 +148,7 @@
 				"energyDelta": 14
 			},
 			"pvp": {
-				"power": 5,
+				"power": 6,
 				"duration": 3,
 				"energyDelta": 11
 			}
@@ -556,7 +556,7 @@
 				"energyDelta": 13
 			},
 			"pvp": {
-				"power": 6,
+				"power": 10,
 				"duration": 3,
 				"energyDelta": 12
 			}
@@ -658,7 +658,7 @@
 				"energyDelta": 5
 			},
 			"pvp": {
-				"power": 5,
+				"power": 6,
 				"duration": 2,
 				"energyDelta": 8
 			}
@@ -998,9 +998,9 @@
 				"energyDelta": 4
 			},
 			"pvp": {
-				"power": 4,
+				"power": 3,
 				"duration": 1,
-				"energyDelta": 2
+				"energyDelta": 4
 			}
 		},
 		{
@@ -1166,9 +1166,9 @@
 				"energyDelta": 8
 			},
 			"pvp": {
-				"power": 5,
+				"power": 14,
 				"duration": 3,
-				"energyDelta": 8
+				"energyDelta": 9
 			}
 		},
 		{
@@ -1478,10 +1478,10 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 45,
-				"energyDelta": 35,
+				"power": 60,
+				"energyDelta": 40,
 				"effect": {
-					"chance": 0.3,
+					"chance": 0.125,
 					"selfAtk": 1
 				}
 			}
@@ -1728,7 +1728,7 @@
 			},
 			"pvp": {
 				"power": 60,
-				"energyDelta": 40
+				"energyDelta": 35
 			}
 		},
 		{
@@ -1779,8 +1779,8 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 55,
-				"energyDelta": 35
+				"power": 65,
+				"energyDelta": 40
 			}
 		},
 		{
@@ -1887,8 +1887,8 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 60,
-				"energyDelta": 50
+				"power": 100,
+				"energyDelta": 60
 			}
 		},
 		{
@@ -1919,8 +1919,8 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 25,
-				"energyDelta": 40,
+				"power": 50,
+				"energyDelta": 50,
 				"effect": {
 					"chance": 1,
 					"enemyAtk": -1
@@ -1959,10 +1959,10 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 45,
-				"energyDelta": 45,
+				"power": 80,
+				"energyDelta": 55,
 				"effect": {
-					"chance": 0.5,
+					"chance": 1,
 					"enemyDef": -1
 				}
 			}
@@ -2143,7 +2143,7 @@
 			},
 			"pvp": {
 				"power": 80,
-				"energyDelta": 50
+				"energyDelta": 45
 			}
 		},
 		{
@@ -2268,7 +2268,7 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 55,
+				"power": 70,
 				"energyDelta": 35
 			}
 		},
@@ -2392,8 +2392,12 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 60,
-				"energyDelta": 55
+				"power": 80,
+				"energyDelta": 55,
+				"effect": {
+					"chance": 1,
+					"selfDef": 1
+				}
 			}
 		},
 		{
@@ -3117,7 +3121,7 @@
 			},
 			"pvp": {
 				"power": 100,
-				"energyDelta": 60
+				"energyDelta": 55
 			}
 		},
 		{
@@ -3364,7 +3368,7 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 70,
+				"power": 85,
 				"energyDelta": 50
 			}
 		},
@@ -3499,7 +3503,7 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 60,
+				"power": 70,
 				"energyDelta": 45,
 				"effect": {
 					"chance": 1,
@@ -3556,7 +3560,7 @@
 			},
 			"pvp": {
 				"power": 70,
-				"energyDelta": 45
+				"energyDelta": 40
 			}
 		},
 		{
@@ -3659,8 +3663,8 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 60,
-				"energyDelta": 55
+				"power": 75,
+				"energyDelta": 45
 			}
 		},
 		{
@@ -3715,8 +3719,8 @@
 				"energyDelta": 100
 			},
 			"pvp": {
-				"power": 110,
-				"energyDelta": 60,
+				"power": 90,
+				"energyDelta": 50,
 				"effect": {
 					"chance": 0.1,
 					"enemyAtk": -1
@@ -4081,7 +4085,7 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 45,
+				"power": 50,
 				"energyDelta": 40,
 				"effect": {
 					"chance": 1,
@@ -4234,14 +4238,14 @@
 			"name": "Psycho Boost",
 			"type": "psychic",
 			"pve": {
-				"power": 70,
+				"power": 130,
 				"duration": 4000,
 				"dws": 3500,
 				"dwe": 4000,
-				"energyDelta": 50
+				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 70,
+				"power": 85,
 				"energyDelta": 35,
 				"effect": {
 					"chance": 1,
@@ -4309,8 +4313,8 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 50,
-				"energyDelta": 35,
+				"power": 55,
+				"energyDelta": 40,
 				"effect": {
 					"chance": 1,
 					"selfAtk": 1
@@ -4540,8 +4544,8 @@
 				"energyDelta": 33
 			},
 			"pvp": {
-				"power": 40,
-				"energyDelta": 40,
+				"power": 55,
+				"energyDelta": 45,
 				"effect": {
 					"chance": 1,
 					"enemyDef": -1
@@ -4689,7 +4693,7 @@
 				"energyDelta": 50
 			},
 			"pvp": {
-				"power": 100,
+				"power": 90,
 				"energyDelta": 50
 			}
 		},
@@ -4726,7 +4730,7 @@
 			},
 			"pvp": {
 				"power": 120,
-				"energyDelta": 90
+				"energyDelta": 65
 			}
 		},
 		{
@@ -6544,7 +6548,9 @@
 				"dark-pulse",
 				"sludge-wave",
 				"gunk-shot",
-				"acid-spray"
+				"acid-spray",
+				"wrap",
+				"brutal-swing"
 			],
 			"atk": 167,
 			"def": 153,
@@ -6560,126 +6566,6 @@
 			"evolutions": [
 				"raichu"
 			],
-			"shadow": false,
-			"fastMoves": [
-				"thunder-shock",
-				"quick-attack",
-				"present"
-			],
-			"chargeMoves": [
-				"discharge",
-				"thunderbolt",
-				"wild-charge",
-				"surf",
-				"thunder"
-			],
-			"eliteMoves": [
-				"present",
-				"surf",
-				"thunder"
-			],
-			"atk": 112,
-			"def": 96,
-			"hp": 111,
-			"candyDistance": 1,
-			"candyToEvolve": 50
-		},
-		{
-			"id": "pikachu",
-			"name": "Pikachu",
-			"type1": "electric",
-			"family": "family-pikachu",
-			"parent": "pichu",
-			"shadow": false,
-			"fastMoves": [
-				"thunder-shock",
-				"quick-attack",
-				"present"
-			],
-			"chargeMoves": [
-				"discharge",
-				"thunderbolt",
-				"wild-charge",
-				"surf",
-				"thunder"
-			],
-			"eliteMoves": [
-				"present",
-				"surf",
-				"thunder"
-			],
-			"atk": 112,
-			"def": 96,
-			"hp": 111,
-			"candyDistance": 1,
-			"candyToEvolve": 50
-		},
-		{
-			"id": "pikachu",
-			"name": "Pikachu",
-			"type1": "electric",
-			"family": "family-pikachu",
-			"parent": "pichu",
-			"shadow": false,
-			"fastMoves": [
-				"thunder-shock",
-				"quick-attack",
-				"present"
-			],
-			"chargeMoves": [
-				"discharge",
-				"thunderbolt",
-				"wild-charge",
-				"surf",
-				"thunder"
-			],
-			"eliteMoves": [
-				"present",
-				"surf",
-				"thunder"
-			],
-			"atk": 112,
-			"def": 96,
-			"hp": 111,
-			"candyDistance": 1,
-			"candyToEvolve": 50
-		},
-		{
-			"id": "pikachu",
-			"name": "Pikachu",
-			"type1": "electric",
-			"family": "family-pikachu",
-			"parent": "pichu",
-			"shadow": false,
-			"fastMoves": [
-				"thunder-shock",
-				"quick-attack",
-				"present"
-			],
-			"chargeMoves": [
-				"discharge",
-				"thunderbolt",
-				"wild-charge",
-				"surf",
-				"thunder"
-			],
-			"eliteMoves": [
-				"present",
-				"surf",
-				"thunder"
-			],
-			"atk": 112,
-			"def": 96,
-			"hp": 111,
-			"candyDistance": 1,
-			"candyToEvolve": 50
-		},
-		{
-			"id": "pikachu",
-			"name": "Pikachu",
-			"type1": "electric",
-			"family": "family-pikachu",
-			"parent": "pichu",
 			"shadow": false,
 			"fastMoves": [
 				"thunder-shock",
@@ -6829,36 +6715,6 @@
 			"baseId": "pikachu"
 		},
 		{
-			"id": "pikachu",
-			"name": "Pikachu",
-			"type1": "electric",
-			"family": "family-pikachu",
-			"parent": "pichu",
-			"shadow": false,
-			"fastMoves": [
-				"thunder-shock",
-				"quick-attack",
-				"present"
-			],
-			"chargeMoves": [
-				"discharge",
-				"thunderbolt",
-				"wild-charge",
-				"surf",
-				"thunder"
-			],
-			"eliteMoves": [
-				"present",
-				"surf",
-				"thunder"
-			],
-			"atk": 112,
-			"def": 96,
-			"hp": 111,
-			"candyDistance": 1,
-			"candyToEvolve": 50
-		},
-		{
 			"id": "pikachu-pop-star",
 			"name": "Pikachu Pop Star",
 			"type1": "electric",
@@ -6944,6 +6800,7 @@
 				"skull-bash",
 				"trailblaze",
 				"surf",
+				"volt-tackle",
 				"thunder"
 			],
 			"eliteMoves": [
@@ -6974,6 +6831,7 @@
 				"skull-bash",
 				"trailblaze",
 				"surf",
+				"volt-tackle",
 				"thunder"
 			],
 			"eliteMoves": [
@@ -7004,6 +6862,7 @@
 				"skull-bash",
 				"trailblaze",
 				"surf",
+				"volt-tackle",
 				"thunder"
 			],
 			"eliteMoves": [
@@ -7034,7 +6893,8 @@
 				"grass-knot",
 				"trailblaze",
 				"surf",
-				"psyshock"
+				"psyshock",
+				"volt-tackle"
 			],
 			"atk": 201,
 			"def": 154,
@@ -7300,7 +7160,8 @@
 				"sludge-wave",
 				"megahorn",
 				"earth-power",
-				"sand-tomb"
+				"sand-tomb",
+				"avalanche"
 			],
 			"eliteMoves": [
 				"fury-cutter"
@@ -8570,6 +8431,7 @@
 			"fastMoves": [
 				"razor-leaf",
 				"acid",
+				"sucker-punch",
 				"magical-leaf"
 			],
 			"chargeMoves": [
@@ -8598,6 +8460,7 @@
 			"fastMoves": [
 				"razor-leaf",
 				"acid",
+				"sucker-punch",
 				"magical-leaf"
 			],
 			"chargeMoves": [
@@ -9394,7 +9257,9 @@
 				"dark-pulse",
 				"gunk-shot",
 				"sludge-wave",
-				"acid-spray"
+				"acid-spray",
+				"ice-punch",
+				"brutal-swing"
 			],
 			"atk": 190,
 			"def": 172,
@@ -11217,7 +11082,8 @@
 				"iron-head",
 				"hyper-beam",
 				"rock-slide",
-				"earth-power"
+				"earth-power",
+				"brutal-swing"
 			],
 			"atk": 221,
 			"def": 159,
@@ -11242,7 +11108,8 @@
 				"iron-head",
 				"hyper-beam",
 				"rock-slide",
-				"earth-power"
+				"earth-power",
+				"brutal-swing"
 			],
 			"atk": 292,
 			"def": 210,
@@ -11250,8 +11117,90 @@
 			"candyDistance": 5
 		},
 		{
+			"id": "aerodactyl-summer-2023",
+			"name": "Aerodactyl Summer 2023",
+			"type1": "rock",
+			"type2": "flying",
+			"family": "family-aerodactyl",
+			"shadow": true,
+			"fastMoves": [
+				"steel-wing",
+				"bite",
+				"rock-throw",
+				"dragon-breath"
+			],
+			"chargeMoves": [
+				"ancient-power",
+				"iron-head",
+				"hyper-beam",
+				"rock-slide",
+				"earth-power"
+			],
+			"atk": 221,
+			"def": 159,
+			"hp": 190,
+			"candyDistance": 5,
+			"baseId": "aerodactyl"
+		},
+		{
+			"id": "mega-aerodactyl-summer-2023",
+			"name": "Mega Aerodactyl Summer 2023",
+			"type1": "rock",
+			"type2": "flying",
+			"family": "family-aerodactyl",
+			"shadow": true,
+			"fastMoves": [
+				"steel-wing",
+				"bite",
+				"rock-throw",
+				"dragon-breath"
+			],
+			"chargeMoves": [
+				"ancient-power",
+				"iron-head",
+				"hyper-beam",
+				"rock-slide",
+				"earth-power"
+			],
+			"atk": 292,
+			"def": 210,
+			"hp": 190,
+			"candyDistance": 5,
+			"baseId": "aerodactyl"
+		},
+		{
 			"id": "snorlax",
 			"name": "Snorlax",
+			"type1": "normal",
+			"family": "family-snorlax",
+			"parent": "munchlax",
+			"shadow": true,
+			"fastMoves": [
+				"zen-headbutt",
+				"lick",
+				"psywave",
+				"yawn"
+			],
+			"chargeMoves": [
+				"heavy-slam",
+				"hyper-beam",
+				"earthquake",
+				"outrage",
+				"skull-bash",
+				"body-slam",
+				"super-power"
+			],
+			"eliteMoves": [
+				"yawn"
+			],
+			"atk": 190,
+			"def": 169,
+			"hp": 330,
+			"candyDistance": 5
+		},
+		{
+			"id": "snorlax-wildarea-2024",
+			"name": "Snorlax Wildarea 2024",
 			"type1": "normal",
 			"family": "family-snorlax",
 			"parent": "munchlax",
@@ -11276,7 +11225,8 @@
 			"atk": 190,
 			"def": 169,
 			"hp": 330,
-			"candyDistance": 5
+			"candyDistance": 5,
+			"baseId": "snorlax"
 		},
 		{
 			"id": "articuno",
@@ -12163,7 +12113,8 @@
 				"megahorn",
 				"cross-poison",
 				"lunge",
-				"trailblaze"
+				"trailblaze",
+				"foul-play"
 			],
 			"atk": 161,
 			"def": 124,
@@ -12180,7 +12131,8 @@
 			"shadow": true,
 			"fastMoves": [
 				"air-slash",
-				"bite"
+				"bite",
+				"gust"
 			],
 			"chargeMoves": [
 				"shadow-ball",
@@ -13865,7 +13817,8 @@
 			"chargeMoves": [
 				"brave-bird",
 				"sky-attack",
-				"flash-cannon"
+				"flash-cannon",
+				"drill-run"
 			],
 			"atk": 148,
 			"def": 226,
@@ -13886,7 +13839,8 @@
 			"chargeMoves": [
 				"brave-bird",
 				"sky-attack",
-				"flash-cannon"
+				"flash-cannon",
+				"drill-run"
 			],
 			"atk": 273,
 			"def": 228,
@@ -13928,13 +13882,15 @@
 			"shadow": true,
 			"fastMoves": [
 				"snarl",
-				"fire-fang"
+				"fire-fang",
+				"incinerate"
 			],
 			"chargeMoves": [
 				"crunch",
 				"fire-blast",
 				"foul-play",
-				"flamethrower"
+				"flamethrower",
+				"trailblaze"
 			],
 			"atk": 224,
 			"def": 144,
@@ -13951,13 +13907,15 @@
 			"shadow": true,
 			"fastMoves": [
 				"snarl",
-				"fire-fang"
+				"fire-fang",
+				"incinerate"
 			],
 			"chargeMoves": [
 				"crunch",
 				"fire-blast",
 				"foul-play",
-				"flamethrower"
+				"flamethrower",
+				"trailblaze"
 			],
 			"atk": 289,
 			"def": 194,
@@ -14251,7 +14209,8 @@
 				"body-slam",
 				"gyro-ball",
 				"thunderbolt",
-				"ice-beam"
+				"ice-beam",
+				"high-horsepower"
 			],
 			"atk": 157,
 			"def": 193,
@@ -14479,6 +14438,7 @@
 				"hydro-pump",
 				"futuresight",
 				"fly",
+				"earth-power",
 				"aeroblast"
 			],
 			"eliteMoves": [
@@ -16154,7 +16114,8 @@
 				"stone-edge",
 				"heavy-slam",
 				"rock-tomb",
-				"meteor-beam"
+				"meteor-beam",
+				"brick-break"
 			],
 			"atk": 198,
 			"def": 257,
@@ -16180,7 +16141,8 @@
 				"stone-edge",
 				"heavy-slam",
 				"rock-tomb",
-				"meteor-beam"
+				"meteor-beam",
+				"brick-break"
 			],
 			"atk": 247,
 			"def": 331,
@@ -16378,12 +16340,14 @@
 			"shadow": false,
 			"fastMoves": [
 				"struggle-bug",
-				"tackle"
+				"tackle",
+				"infestation"
 			],
 			"chargeMoves": [
 				"signal-beam",
 				"bug-buzz",
-				"thunderbolt"
+				"thunderbolt",
+				"lunge"
 			],
 			"atk": 143,
 			"def": 166,
@@ -16398,12 +16362,14 @@
 			"shadow": false,
 			"fastMoves": [
 				"struggle-bug",
-				"tackle"
+				"tackle",
+				"infestation"
 			],
 			"chargeMoves": [
 				"silver-wind",
 				"bug-buzz",
-				"dazzling-gleam"
+				"dazzling-gleam",
+				"shadow-ball"
 			],
 			"atk": 143,
 			"def": 166,
@@ -18562,7 +18528,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"zen-headbutt",
-				"counter"
+				"counter",
+				"low-kick"
 			],
 			"chargeMoves": [
 				"psycho-boost",
@@ -19813,7 +19780,8 @@
 			"chargeMoves": [
 				"shadow-ball",
 				"dark-pulse",
-				"dazzling-gleam"
+				"dazzling-gleam",
+				"mystical-fire"
 			],
 			"atk": 211,
 			"def": 187,
@@ -21089,6 +21057,7 @@
 				"close-combat",
 				"psychic",
 				"leaf-blade",
+				"sacred-sword",
 				"synchronoise"
 			],
 			"eliteMoves": [
@@ -21118,6 +21087,7 @@
 				"close-combat",
 				"psychic",
 				"leaf-blade",
+				"sacred-sword",
 				"synchronoise"
 			],
 			"eliteMoves": [
@@ -21680,12 +21650,14 @@
 			"shadow": true,
 			"fastMoves": [
 				"snarl",
-				"feint-attack"
+				"feint-attack",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"focus-blast",
 				"shadow-ball",
 				"dark-pulse",
+				"foul-play",
 				"sludge-bomb"
 			],
 			"eliteMoves": [
@@ -23077,7 +23049,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"pound",
-				"zen-headbutt"
+				"zen-headbutt",
+				"charge-beam"
 			],
 			"chargeMoves": [
 				"disarming-voice",
@@ -23099,7 +23072,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"pound",
-				"zen-headbutt"
+				"zen-headbutt",
+				"charge-beam"
 			],
 			"chargeMoves": [
 				"disarming-voice",
@@ -24033,7 +24007,8 @@
 			"chargeMoves": [
 				"shadow-ball",
 				"dark-pulse",
-				"psychic"
+				"psychic",
+				"energy-ball"
 			],
 			"atk": 163,
 			"def": 237,
@@ -24245,7 +24220,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"shadow-claw",
-				"snarl"
+				"snarl",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"foul-play",
@@ -24275,7 +24251,8 @@
 				"foul-play",
 				"sludge-bomb",
 				"flamethrower",
-				"shadow-ball"
+				"shadow-ball",
+				"swift"
 			],
 			"atk": 261,
 			"def": 128,
@@ -25204,7 +25181,8 @@
 			"fastMoves": [
 				"hex",
 				"fire-spin",
-				"incinerate"
+				"incinerate",
+				"astonish"
 			],
 			"chargeMoves": [
 				"energy-ball",
@@ -31390,7 +31368,8 @@
 				"thunder-punch",
 				"discharge",
 				"wild-charge",
-				"plasma-fists"
+				"plasma-fists",
+				"dynamic-punch"
 			],
 			"atk": 252,
 			"def": 177,
@@ -32370,6 +32349,32 @@
 			"candyDistance": 5
 		},
 		{
+			"id": "toxtricity-amped",
+			"name": "Toxtricity Amped",
+			"type1": "electric",
+			"type2": "poison",
+			"family": "family-toxel",
+			"parent": "toxel",
+			"shadow": false,
+			"fastMoves": [
+				"acid",
+				"spark",
+				"poison-jab"
+			],
+			"chargeMoves": [
+				"acid-spray",
+				"discharge",
+				"wild-charge",
+				"power-up-punch",
+				"swift"
+			],
+			"atk": 224,
+			"def": 140,
+			"hp": 181,
+			"candyDistance": 5,
+			"baseId": "toxtricity"
+		},
+		{
 			"id": "sizzlipede",
 			"name": "Sizzlipede",
 			"type1": "fire",
@@ -32642,7 +32647,8 @@
 				"foul-play",
 				"dark-pulse",
 				"play-rough",
-				"power-up-punch"
+				"power-up-punch",
+				"draining-kiss"
 			],
 			"atk": 227,
 			"def": 139,
@@ -33833,7 +33839,8 @@
 			"fastMoves": [
 				"tackle",
 				"rock-smash",
-				"smack-down"
+				"smack-down",
+				"scratch"
 			],
 			"chargeMoves": [
 				"fire-punch",
@@ -34922,12 +34929,14 @@
 			"shadow": false,
 			"fastMoves": [
 				"mud-slap",
-				"poison-jab"
+				"poison-jab",
+				"scratch"
 			],
 			"chargeMoves": [
 				"acid-spray",
 				"poison-fang",
-				"sludge-bomb"
+				"sludge-bomb",
+				"foul-play"
 			],
 			"atk": 199,
 			"def": 149,
@@ -35318,7 +35327,8 @@
 				"payback",
 				"aerial-ace",
 				"fly",
-				"rock-tomb"
+				"rock-tomb",
+				"drill-run"
 			],
 			"atk": 198,
 			"def": 172,
@@ -35588,7 +35598,8 @@
 			"shadow": false,
 			"fastMoves": [
 				"wing-attack",
-				"double-kick"
+				"double-kick",
+				"peck"
 			],
 			"chargeMoves": [
 				"aerial-ace",
@@ -35828,7 +35839,8 @@
 			"fastMoves": [
 				"snarl",
 				"metal-claw",
-				"metal-sound"
+				"metal-sound",
+				"low-kick"
 			],
 			"chargeMoves": [
 				"dark-pulse",
