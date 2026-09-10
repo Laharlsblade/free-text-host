@@ -11117,58 +11117,6 @@
 			"candyDistance": 5
 		},
 		{
-			"id": "aerodactyl-summer-2023",
-			"name": "Aerodactyl Summer 2023",
-			"type1": "rock",
-			"type2": "flying",
-			"family": "family-aerodactyl",
-			"shadow": true,
-			"fastMoves": [
-				"steel-wing",
-				"bite",
-				"rock-throw",
-				"dragon-breath"
-			],
-			"chargeMoves": [
-				"ancient-power",
-				"iron-head",
-				"hyper-beam",
-				"rock-slide",
-				"earth-power"
-			],
-			"atk": 221,
-			"def": 159,
-			"hp": 190,
-			"candyDistance": 5,
-			"baseId": "aerodactyl"
-		},
-		{
-			"id": "mega-aerodactyl-summer-2023",
-			"name": "Mega Aerodactyl Summer 2023",
-			"type1": "rock",
-			"type2": "flying",
-			"family": "family-aerodactyl",
-			"shadow": true,
-			"fastMoves": [
-				"steel-wing",
-				"bite",
-				"rock-throw",
-				"dragon-breath"
-			],
-			"chargeMoves": [
-				"ancient-power",
-				"iron-head",
-				"hyper-beam",
-				"rock-slide",
-				"earth-power"
-			],
-			"atk": 292,
-			"def": 210,
-			"hp": 190,
-			"candyDistance": 5,
-			"baseId": "aerodactyl"
-		},
-		{
 			"id": "snorlax",
 			"name": "Snorlax",
 			"type1": "normal",
@@ -11197,36 +11145,6 @@
 			"def": 169,
 			"hp": 330,
 			"candyDistance": 5
-		},
-		{
-			"id": "snorlax-wildarea-2024",
-			"name": "Snorlax Wildarea 2024",
-			"type1": "normal",
-			"family": "family-snorlax",
-			"parent": "munchlax",
-			"shadow": true,
-			"fastMoves": [
-				"zen-headbutt",
-				"lick",
-				"yawn"
-			],
-			"chargeMoves": [
-				"heavy-slam",
-				"hyper-beam",
-				"earthquake",
-				"outrage",
-				"skull-bash",
-				"body-slam",
-				"super-power"
-			],
-			"eliteMoves": [
-				"yawn"
-			],
-			"atk": 190,
-			"def": 169,
-			"hp": 330,
-			"candyDistance": 5,
-			"baseId": "snorlax"
 		},
 		{
 			"id": "articuno",
@@ -14465,6 +14383,7 @@
 				"hydro-pump",
 				"futuresight",
 				"fly",
+				"earth-power",
 				"aeroblast",
 				"aeroblast-plus-plus",
 				"aeroblast-plus"
@@ -24220,8 +24139,7 @@
 			"shadow": false,
 			"fastMoves": [
 				"shadow-claw",
-				"snarl",
-				"sucker-punch"
+				"snarl"
 			],
 			"chargeMoves": [
 				"foul-play",
@@ -26806,6 +26724,7 @@
 				"aerial-ace",
 				"surf",
 				"hydro-pump",
+				"brutal-swing",
 				"hydro-cannon"
 			],
 			"eliteMoves": [
@@ -26834,6 +26753,7 @@
 				"aerial-ace",
 				"surf",
 				"hydro-pump",
+				"brutal-swing",
 				"hydro-cannon"
 			],
 			"eliteMoves": [
