@@ -26073,7 +26073,7 @@
 			"type1": "dragon",
 			"type2": "electric",
 			"family": "family-zekrom",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"dragon-breath",
 				"charge-beam"
@@ -27138,7 +27138,7 @@
 			"evolutions": [
 				"pangoro"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"low-kick",
 				"tackle"
@@ -27160,7 +27160,7 @@
 			"type2": "dark",
 			"family": "family-pancham",
 			"parent": "pancham",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"low-kick",
 				"snarl",
@@ -29546,7 +29546,7 @@
 			"evolutions": [
 				"lurantis"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"razor-leaf",
 				"fury-cutter",
@@ -29569,7 +29569,7 @@
 			"type1": "grass",
 			"family": "family-fomantis",
 			"parent": "fomantis",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"razor-leaf",
 				"fury-cutter",
@@ -29879,7 +29879,7 @@
 			"evolutions": [
 				"golisopod"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"struggle-bug"
 			],
@@ -29898,7 +29898,7 @@
 			"type2": "water",
 			"family": "family-wimpod",
 			"parent": "wimpod",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"fury-cutter",
 				"metal-claw",
@@ -29926,7 +29926,7 @@
 			"evolutions": [
 				"palossand"
 			],
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"astonish",
 				"mud-shot",
@@ -29950,7 +29950,7 @@
 			"type2": "ground",
 			"family": "family-sandygast",
 			"parent": "sandygast",
-			"shadow": false,
+			"shadow": true,
 			"fastMoves": [
 				"astonish",
 				"mud-shot",
