@@ -24139,13 +24139,17 @@
 			"shadow": false,
 			"fastMoves": [
 				"shadow-claw",
-				"snarl"
+				"snarl",
+				"sucker-punch"
 			],
 			"chargeMoves": [
 				"foul-play",
 				"sludge-bomb",
 				"flamethrower",
 				"night-shade"
+			],
+			"eliteMoves": [
+				"sucker-punch"
 			],
 			"atk": 250,
 			"def": 127,
@@ -25114,6 +25118,36 @@
 			],
 			"atk": 271,
 			"def": 182,
+			"hp": 155,
+			"candyDistance": 5,
+			"candyToEvolve": 25
+		},
+		{
+			"id": "mega-chandelure",
+			"name": "Mega Chandelure",
+			"type1": "ghost",
+			"type2": "fire",
+			"family": "family-litwick",
+			"parent": "lampent",
+			"shadow": true,
+			"fastMoves": [
+				"hex",
+				"fire-spin",
+				"incinerate",
+				"astonish"
+			],
+			"chargeMoves": [
+				"energy-ball",
+				"shadow-ball",
+				"overheat",
+				"flame-charge",
+				"poltergeist"
+			],
+			"eliteMoves": [
+				"poltergeist"
+			],
+			"atk": 335,
+			"def": 227,
 			"hp": 155,
 			"candyDistance": 5,
 			"candyToEvolve": 25
@@ -27964,6 +27998,33 @@
 			"candyDistance": 5
 		},
 		{
+			"id": "sliggoo-hisuian",
+			"name": "Sliggoo Hisuian",
+			"type1": "steel",
+			"type2": "dragon",
+			"family": "family-goomy",
+			"parent": "goomy",
+			"evolutions": [
+				"goodra"
+			],
+			"shadow": false,
+			"fastMoves": [
+				"tackle",
+				"water-gun"
+			],
+			"chargeMoves": [
+				"heavy-slam",
+				"dragon-pulse",
+				"sludge-wave",
+				"water-pulse"
+			],
+			"atk": 153,
+			"def": 190,
+			"hp": 151,
+			"candyDistance": 5,
+			"baseId": "sliggoo"
+		},
+		{
 			"id": "goodra",
 			"name": "Goodra",
 			"type1": "dragon",
@@ -27989,6 +28050,31 @@
 			"def": 242,
 			"hp": 207,
 			"candyDistance": 5
+		},
+		{
+			"id": "goodra-hisuian",
+			"name": "Goodra Hisuian",
+			"type1": "steel",
+			"type2": "dragon",
+			"family": "family-goomy",
+			"parent": "sliggoo",
+			"shadow": false,
+			"fastMoves": [
+				"dragon-tail",
+				"iron-tail",
+				"water-gun"
+			],
+			"chargeMoves": [
+				"heavy-slam",
+				"draco-meteor",
+				"sludge-wave",
+				"hydro-pump"
+			],
+			"atk": 211,
+			"def": 255,
+			"hp": 190,
+			"candyDistance": 5,
+			"baseId": "goodra"
 		},
 		{
 			"id": "klefki",
@@ -30437,14 +30523,14 @@
 				"ancient-power",
 				"acrobatics"
 			],
-			"atk": 116,
-			"def": 194,
+			"atk": 218,
+			"def": 131,
 			"hp": 155,
 			"candyDistance": 3
 		},
 		{
-			"id": "minior-blue",
-			"name": "Minior Blue",
+			"id": "minior-meteor",
+			"name": "Minior Meteor",
 			"type1": "rock",
 			"type2": "flying",
 			"family": "family-minior",
@@ -30458,8 +30544,8 @@
 				"ancient-power",
 				"acrobatics"
 			],
-			"atk": 218,
-			"def": 131,
+			"atk": 116,
+			"def": 194,
 			"hp": 155,
 			"candyDistance": 3,
 			"baseId": "minior"
